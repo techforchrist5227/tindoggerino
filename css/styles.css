@@ -55,6 +55,7 @@ h1{
 
 #features{
     padding: 10rem;
+    position: relative;
 }
 
 #testimonials{
@@ -159,3 +160,10 @@ p{
     font-family:  sans-serif;
 }
 
+
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
